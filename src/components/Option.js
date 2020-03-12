@@ -5,6 +5,7 @@ const Option = (props) => (
         <p>
             {props.optionText}
             <button 
+                className="button button--link"
                 onClick={() => {
                     props.handleDeleteOption(props.optionText);
                 }}
